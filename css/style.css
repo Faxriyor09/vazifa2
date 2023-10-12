@@ -1,0 +1,51 @@
+.container {
+    background-color: rgb(7, 7, 245);
+    margin: 0 auto;
+    max-width: 1140px;
+    padding-bottom: 50px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 110px;
+    background-color: #fff;
+
+    border-radius: 200px;
+}
+
+.ob-havo {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.ob-havo h2 {
+    display: block;
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: blue;
+    background-color: white;
+}
+
+.wrap .left img {
+    width: 200px;
+    height: 200px;
+}
+
+.wrap .right img {
+    width: 200px;
+    height: 200px;
+}
+
+.wrap .right p,
+.wrap .right h3 {
+    color: rgb(16, 16, 249);
+}
+
+.wrap .left p,
+.wrap .left h3 {
+    color: rgb(11, 11, 231);
+}
